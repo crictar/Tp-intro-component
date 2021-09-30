@@ -58,6 +58,7 @@ header p{
 }
 .form{
     width: 332px;
+    position: relative;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     margin-top: 23px;
@@ -69,18 +70,26 @@ header p{
     align-content: center;
     z-index: 1;
 }
-.form input{
-    font-family: 'Poppins', sans-serif;
+.inputDiv{
+    position: relative;
     width: 280px;
     height: 54px;
-    padding-left: 20px;
-    border: 1px solid var(--Grayish-blue);
-    border-radius: 6px;
     margin: 0 auto;
     margin-top: 16px;
+    text-align: left;
+    }
+
+.form div input{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 260px;
+    height: 54px;
+    padding: 0 0 0 20px;
     outline: none;
     text-align: left;
     font-weight: 700;
+    border: 1px solid var(--Grayish-blue);
+    border-radius: 6px;
   }
 .form button {
     width: 280px;
@@ -95,6 +104,7 @@ header p{
 }
 .terms{
     margin: 0 47px 12px 47px;
+    text-align: center;
 }
 .terms h3 {
     color: var(--Grayish-blue);
@@ -105,3 +115,15 @@ header p{
 .terms h3 a {
      color: var(--Red); 
     text-decoration: none;}
+.error{
+    margin: 0;
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 12px;
+    z-index: 2;
+    }
+.error img
+{
+    width: 30px;
+}
