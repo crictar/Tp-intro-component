@@ -1,2 +1,107 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    font-family: 'Poppins', sans-serif;
+    /* Primary colors */
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+  
+    /* Accent Colors */
+    --Blue: hsl(248, 32%, 49%);
+  
+    /* Neutral color */
+    --Dark-blue: hsl(249, 10%, 26%);
+    --Grayish-blue: hsl(246, 25%, 77%);
+  }
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 375px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--Red);
+  }
+body img {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -5;
+  }
+header{
+    color: white;
+    margin-top: 96px;
+}
+header h1{
+    font-weight: 700;
+    margin: 0 70px;
+}
+header p{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 24px 34px;
+}
+.try_sign{
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: var(--Blue);
+    align-content: center;
+    z-index: 1;
+  }
+.try_sign p{
+    margin: 24px 77px;
+    color: white;
+    font-size: 14px;
+
+}
+.form{
+    width: 332px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    margin-top: 23px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    align-content: center;
+    z-index: 1;
+}
+.form input{
+    font-family: 'Poppins', sans-serif;
+    width: 280px;
+    height: 54px;
+    padding-left: 20px;
+    border: 1px solid var(--Grayish-blue);
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 16px;
+    outline: none;
+    text-align: left;
+    font-weight: 700;
+  }
+.form button {
+    width: 280px;
+    height: 55px;
+    margin: 16px auto 0 auto;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--Green);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.terms{
+    margin: 0 47px 12px 47px;
+}
+.terms h3 {
+    color: var(--Grayish-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+}
+.terms h3 a {
+     color: var(--Red); 
+    text-decoration: none;}
