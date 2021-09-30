@@ -24,20 +24,30 @@
         <section class="form">
             <div class="inputDiv">
               <input id="first_name" placeholder="First Name"/>
-              <div class="error" id="er1"><img src="./images/icon-error.svg"></div>
+              <div class="error" id="er1">
+                <img src="./images/icon-error.svg">
+                <p class="texterror">First Name cannot be empty</p>
+              </div>
             </div>
             <div class="inputDiv">
               <input id="last_name" placeholder="Last Name"/>
-              <div class="error" id="er2"><img src="./images/icon-error.svg"></div>
+              <div class="error" id="er2">
+                <img src="./images/icon-error.svg">
+                <p class="texterror">Last Name cannot be empty</p>
+              </div>
             </div>
             <div class="inputDiv">
               <input id="email" placeholder="Email Address"/>
-              <div class="error"id="er3"><img src="./images/icon-error.svg"></div>
+              <div class="error"id="er3">
+                <img src="./images/icon-error.svg">
+                <p class="texterror">Looks like this is not an email</p>
+              </div>
             </div>
             <div class="inputDiv">
               <input id="password" type="password" placeholder="Password"/>
               <div class="error" id="er4">
                 <img src="./images/icon-error.svg">
+                <div class="texterror">Password cannot be empty</div>
               </div>
             </div>
             <button class="claim_button" onclick="control()"><a>CLAIM YOUR FREE TRIAL </a></button>

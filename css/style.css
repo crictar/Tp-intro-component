@@ -127,3 +127,12 @@ header p{
 {
     width: 30px;
 }
+.error .texterror{
+    position: absolute;
+    color: var(--Red);
+    font-size: 10px;
+    margin: 0;
+    width: 150px;
+    right: -60px;
+    top: 45px;
+}
