@@ -117,7 +117,7 @@ header p{
     text-decoration: none;}
 .error{
     margin: 0;
-    display: block;
+    display: none;
     position: absolute;
     right: 35px;
     top: 12px;
